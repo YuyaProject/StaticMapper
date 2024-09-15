@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{B7DFA5F7-758D-40E1-AD54-B39AB904CE4F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Projects", "3. Projects", "{D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMapper.Demo", "src\StaticMapper.Demo\StaticMapper.Demo.csproj", "{57297F10-3980-4A47-907E-982F4274343C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMapper.Generator", "src\StaticMapper.Generator\StaticMapper.Generator.csproj", "{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMapper", "src\StaticMapper\StaticMapper.csproj", "{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57297F10-3980-4A47-907E-982F4274343C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57297F10-3980-4A47-907E-982F4274343C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57297F10-3980-4A47-907E-982F4274343C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57297F10-3980-4A47-907E-982F4274343C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57297F10-3980-4A47-907E-982F4274343C} = {D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}
+		{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8} = {D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}
+		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9} = {D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F2094D-E7C6-47F6-8B94-A4CA8950FDB9}
+	EndGlobalSection
+EndGlobal
