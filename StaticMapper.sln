@@ -5,6 +5,7 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{B7DFA5F7-758D-40E1-AD54-B39AB904CE4F}"
 	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -12,9 +13,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Projects", "3. Projects"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMapper.Demo", "src\StaticMapper.Demo\StaticMapper.Demo.csproj", "{57297F10-3980-4A47-907E-982F4274343C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMapper.Generator", "src\StaticMapper.Generator\StaticMapper.Generator.csproj", "{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMapper.Generator", "src\StaticMapper.Generator\StaticMapper.Generator.csproj", "{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMapper", "src\StaticMapper\StaticMapper.csproj", "{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMapper", "src\StaticMapper\StaticMapper.csproj", "{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs", "docs\", "{0AA3622B-60B3-43B8-A319-70812A9966C3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50815"
+		Debug.AspNetCompiler.PhysicalPath = "docs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50815\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50815"
+		Release.AspNetCompiler.PhysicalPath = "docs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50815\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50815"
+		SlnRelativePath = "docs\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Documents", "2. Documents", "{5F342A17-A100-404F-A638-396D6EB21772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +58,10 @@ Global
 		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA3622B-60B3-43B8-A319-70812A9966C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA3622B-60B3-43B8-A319-70812A9966C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA3622B-60B3-43B8-A319-70812A9966C3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA3622B-60B3-43B8-A319-70812A9966C3}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +70,7 @@ Global
 		{57297F10-3980-4A47-907E-982F4274343C} = {D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}
 		{EEF8481D-30C1-4EA8-AC8D-6C45FEF3A3D8} = {D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}
 		{8EBDE7F8-4519-482F-80F0-A2A46A8E07C9} = {D7785E77-AA0D-4FAB-B0DB-6984ABDE8FFE}
+		{0AA3622B-60B3-43B8-A319-70812A9966C3} = {5F342A17-A100-404F-A638-396D6EB21772}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5F2094D-E7C6-47F6-8B94-A4CA8950FDB9}

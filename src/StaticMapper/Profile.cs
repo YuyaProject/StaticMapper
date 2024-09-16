@@ -1,22 +1,17 @@
-﻿using System.Linq.Expressions;
+﻿
+using System.Linq.Expressions;
 
 namespace StaticMapper;
 
 public abstract class Profile
 {
-    protected Profile(string mappingName)
-    { }
+	public string MappingName { get; }
 
-    protected IMapperConfiguration<TSource, TDestination> CreateMap<TSource, TDestination>()
-        => new MapperConfiguration<TSource, TDestination>();
+	protected Profile(string mappingName)
+	{
+		MappingName = mappingName;
+	}
+
+	protected IMapperConfiguration<TSource, TDestination> CreateMap<TSource, TDestination>()
+		=> new MapperConfiguration<TSource, TDestination>();
 }
-
-public interface IMapperConfiguration<TSource, TDestination>
-{
-}
-
-internal class MapperConfiguration<TSource, TDestination> : IMapperConfiguration<TSource, TDestination>
-{ }
-
-public interface IMapper
-{ }
