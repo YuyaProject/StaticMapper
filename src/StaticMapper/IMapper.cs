@@ -1,11 +1,15 @@
 ﻿namespace StaticMapper;
 
 public interface IMapper
-{ }
+{
+	TDestination Map<TDestination>(object source)
+		where TDestination : class;
 
-#pragma warning disable S2326 // Unused type parameters should be removed
-public interface IMapper<TProfile> : IMapper
-#pragma warning restore S2326 // Unused type parameters should be removed
+	void Map(object source, object destination);
+}
+
+public interface IMapper<out TProfile> : IMapper
 	where TProfile : Profile
 {
+	TProfile Profile { get; }
 }
